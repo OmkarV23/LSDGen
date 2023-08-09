@@ -1,0 +1,14 @@
+{
+    "detectron2": {
+        "config_file" : "/home/ovengurl/LSDGen/LLMScore/submodule/grit/configs/GRiT_B_DenseCap_ObjectDet.yaml",
+        "model_path" : "/home/ovengurl/LSDGen/LLMScore/models/grit_b_densecap_objectdet.pth",
+        "confidence-threshold" : 0.5
+                },
+    "data" : {
+        "images" : ["/home/ovengurl/LSDGen/LLMScore/sample/sample.png"],
+        "text_prompts" : ["a red car and a white sheep"]
+    },
+    "llm_id" : "gpt-3.5-turbo",
+    "openai_key" : "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",
+    "output_dir" : "/home/ovengurl/LSDGen/LLMScore/output/output"
+}
